@@ -1,0 +1,59 @@
+/* Component Stylesheet 
+============================================================
+============================================================*/
+body{
+	font-family: sans-serif;
+	margin: 0;
+	}
+section{
+	width: 1286px;
+	height: 416px;
+	background: rgba(72, 59, 53, .9);
+	}
+	
+	h1{
+		font-size: 50px;
+		line-height: 55px;
+		}
+		h1, p, a{
+			color: #fcfcfc;
+			}
+			h1, p{
+			text-align: center;
+			}
+			
+			article{
+				padding: 60px;
+				width: 90%;
+				}
+				
+				a{
+					background-color: #8dbf41;
+					text-decoration: none;
+					margin: 46px 0px 0px 0px;
+					padding: 23px 36px;
+					display: inline-block;
+					}
+a:hover {
+    color: #414851;
+    background: #fff;
+}
+
+#buttonpos{
+	text-align:  center;
+	}
+	
+	.previous{
+		width: 40px;
+		height: 40px;
+		background: rgba(72, 59, 53, .7);
+		float: left;
+		margin-right: 70px;
+		}
+		.next{
+			width: 40px;
+		height: 40px;
+		background: rgba(72, 59, 53, .7);
+		float: right;
+		margin-left: 70px;
+			}

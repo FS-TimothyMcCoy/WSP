@@ -34,6 +34,23 @@ section{
 img, iframe{
 	width: 100%;
 	}
+	
+	a{
+					background-color:#E42FC7;
+					text-decoration: none;
+					margin: 46px 0px 0px 0px;
+					padding: 23px 36px;
+					display: inline-block;
+					color: white;	
+					}
+a:hover {
+    color: #414851;
+    background: #fff;
+}
+
+.buttonpos{
+	text-align:  center;
+	}
 
 
 /*TYPOGRAPHY
