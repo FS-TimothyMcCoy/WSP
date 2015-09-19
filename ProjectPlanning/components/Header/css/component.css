@@ -52,22 +52,25 @@ body{
 							}
 							ul{
 								list-style-type: none;
+								background: rgb(253, 118, 5);
+								padding: 20px;
+								position: absolute; 
+								width: 100%;
 								}
-								nav ul ul{
-									display: none;
+								ul li{
+									display: inline-block;
+									border: 1px solid #fff;
+									
 									}
-									nav ul li:hover > ul{
-										display: block;
-									}
-									.nav li{
-										display: inline-block;
-										background-color: rgb(253, 118, 5);
-										/*background-color: #8dbf41;*/
-					
-					
-					padding: 23px 36px;
-					
+									ul li ul{
+										display: none;
 										}
+										ul li ul li{
+											display: block;
+											}
+										
+								
+									
 										
 	
 	
