@@ -19,38 +19,44 @@ body{
 section{
 	color: black;
 	margin: 50px;
-	border: 3px solid cyan;
+	border: 1px solid black;
+	padding: 20px;
 	}
 	
 	header{
 		color: white;
+		margin: 20px;
 		}
 /* ABOUT ============================== */
 section{
 	background-color: cornsilk;
 	width: 45%;
+	margin: 0 auto;
 	}
 /* COMPONENTS ============================== */
 img, iframe{
 	width: 100%;
 	}
 	
-	a{
-					background-color:#E42FC7;
+	.buttonp a{
 					text-decoration: none;
 					margin: 46px 0px 0px 0px;
 					padding: 23px 36px;
 					display: inline-block;
 					color: white;	
+					border: solid 2px #8b9098;
+					background: linear-gradient(to right, #8b9098 50%, #000 50%);
+					background-size: 200% 100%;
+					background-position: right bottom;
+					transition: background 0.2s ease-in;
 					}
-a:hover {
-    color: #414851;
-    background: #fff;
+					.buttonp{
+						text-align: center;
+						}
+.buttonp a:hover {
+    background-position: left bottom;
 }
 
-.buttonpos{
-	text-align:  center;
-	}
 
 
 /*TYPOGRAPHY
