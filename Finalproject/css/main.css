@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-size:62.5%;
+	}
+header, section, footer{
+	max-width: 900px;
+	margin: 0 auto;
+	}
+	
+ul li{
+		display:inline-block;
+		list-style-type: none;
+}
+
+a{
+	text-decoration:none;
+}
+
+header li, footer li{
+	padding: 20px;
+	}
+	header, footer{
+		text-align: center;
+		}
+		
+		section:nth-child(4){
+			display:inline-block;
+			background-color:red;
+			width: 50%;
+			margin: 0 auto;
+			
+			}
+			
+			section:nth-child(4) p, section:nth-child(4) input{
+				float:left;
+				text-align: center;
+				margin: 0 10px;
+			}
+			 section:nth-child(4) input{
+				 text-align: left; 
+				 }
+				 
+				 
+			
